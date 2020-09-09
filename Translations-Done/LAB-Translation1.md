@@ -26,10 +26,10 @@ In this lab, you will learn how to perform the following tasks:
     _Use the ping command to confirm that my-vm-2 can reach my-vm-1 over the network_
 
     -Connect to my-vm-2
-        gcloud compute ssh my-vm-2
+      gcloud compute ssh my-vm-2
         
     -Ping my-vm-1
-        ping -c 10 my-vm-1
+      ping -c 10 my-vm-1
         
     -Use the ssh command to open a command prompt on my-vm-1:
         ssh my-vm-1 -y
