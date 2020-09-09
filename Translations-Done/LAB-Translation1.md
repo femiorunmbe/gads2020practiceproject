@@ -27,10 +27,13 @@ In this lab, you will learn how to perform the following tasks:
 
     - Connect to my-vm-2:
         gcloud compute ssh my-vm-2
+        
     - Ping my-vm-1:
         ping -c 10 my-vm-1
+        
     - Use the ssh command to open a command prompt on my-vm-1:
         ssh my-vm-1 -y
+        
     - At the command prompt on my-vm-1, install the Nginx web server:
         sudo apt-get install nginx-light -y
     - Use the nano text editor to add a custom message to the home page of the web server:
